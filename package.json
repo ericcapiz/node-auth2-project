@@ -4,6 +4,7 @@
   "description": "In this project we'll implement a full authentication workflow (register/login/logout/restrict endpoint) using `Node.js`, `Express`, `SQLite` and `JSON Web Tokens` on the server.",
   "main": "index.js",
   "scripts": {
+    "server": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
