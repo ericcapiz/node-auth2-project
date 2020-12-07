@@ -3,7 +3,7 @@ const jwt = require("jsonwebtoken");
 const router = require("express").Router();
 const secrets = require('../config/secrets');
 
-const Users = require("../users/user=model.js");
+const Users = require("../users/users-model.js");
 const { isValid } = require("../users/users-service.js");
 
 //new user
